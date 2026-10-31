@@ -1,0 +1,13 @@
+.menuList{
+  //:global(.ant-menu-item){
+  //  white-space: nowrap !important;      /* 确保文本在一行内显示 */
+  //  overflow: hidden !important;        /* 隐藏超出容器的文本 */
+  //  text-overflow: ellipsis !important;  /* 使用省略号表示被截断的文本 */
+  //  width: 200px !important;
+  //  display: -webkit-box !important;//谷歌
+  //  /* 设置容器宽度 */
+  //}
+  :global(.ant-menu-title-content){
+     display: inline !important;           /* 设置容器宽度 */
+  }
+}

@@ -1,0 +1,23 @@
+.uploadIcon{
+  display: flex;
+  :global(.ant-upload-wrapper){
+    width: 100%;
+  }
+  :global(.ant-upload){
+    width: 100%;
+  }
+}
+
+.borderR{
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: calc(100% + 20px); /* 使用 calc 调整高度 */
+    background-color: #000; /* 与 border-right 相同的颜色 */
+    pointer-events: none;
+  }
+}

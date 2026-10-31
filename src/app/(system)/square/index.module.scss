@@ -1,0 +1,26 @@
+.desc{
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.name{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+//#scrollableDiv2{
+//  position: relative;
+//  overflow-y: auto;
+//  flex: 1 1 100%;
+//  z-index: 1;
+//  //height: calc(100vh - 100px);
+//}

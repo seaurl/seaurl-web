@@ -1,0 +1,7 @@
+.container{
+  :global(.ant-table-selection-column){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

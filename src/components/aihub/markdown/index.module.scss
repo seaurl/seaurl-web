@@ -1,0 +1,228 @@
+.markdown-editor-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+}
+
+.markdown-editor-left {
+  flex: 1;
+  width: 50%;
+  border-right: 1px solid #ddd;
+  padding: 0 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  @media (prefers-color-scheme: dark) {
+    border-right-color: #474747;
+  }
+
+  :global(.ant-input) {
+    flex: 1;
+    min-height: 0;
+  }
+}
+
+.markdown-editor-right {
+  flex: 1;
+  width: 50%;
+  padding: 0 16px;
+  overflow-y: auto;
+  background-color: #fff;
+
+  //@media (prefers-color-scheme: dark) {
+  //  background-color: #1C2126;
+  //}
+}
+
+.markdown-container {
+  line-height: 28px;
+  word-wrap: break-word;
+
+  // 标题样式
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 0.875em;
+  }
+
+  h6 {
+    font-size: 0.85em;
+    color: #6a737d;
+  }
+
+  // 段落样式
+  p {
+    margin: 0.5em 0;
+  }
+
+  // 列表样式
+  ul, ol {
+    margin: 0.5em 0;
+    padding-left: 2em;
+  }
+
+  li {
+    margin: 0.25em 0;
+  }
+
+  // 代码样式
+  code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 3px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  }
+
+  // 代码块样式
+  .pre-code-box {
+    margin: 1em 0;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #0d1117;
+  }
+
+  .pre-code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #161b22;
+    border-bottom: 1px solid #30363d;
+    font-size: 12px;
+    color: #8b949e;
+  }
+
+  .code-block-header__lang {
+    font-weight: 500;
+  }
+
+  .code-block-header__copy {
+    cursor: pointer;
+    color: #58a6ff;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #79c0ff;
+    }
+  }
+
+  .pre-code {
+    padding: 16px;
+    overflow-x: auto;
+  }
+
+  .code-block-body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  // 表格样式
+  .table-container {
+    overflow-x: auto;
+    margin: 1em 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+
+    th, td {
+      padding: 6px 13px;
+      border: 1px solid #d0d7de;
+    }
+
+    th {
+      background-color: #f6f8fa;
+      font-weight: 600;
+    }
+
+    tr:nth-child(2n) {
+      background-color: #f6f8fa;
+    }
+  }
+
+  // 引用样式
+  blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #d0d7de;
+    margin: 0.5em 0;
+  }
+
+  // 链接样式
+  a {
+    color: #58a6ff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  // 分割线样式
+  hr {
+    height: 0.25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #d0d7de;
+    border: 0;
+  }
+
+  // 图片样式
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 1em 0;
+  }
+
+  // 深思考样式
+  &.markdown-deep-think {
+    border: 1px solid #54458a;
+    border-radius: 16px;
+    padding: 12px;
+    margin: 8px 0;
+    color: #54458a;
+
+    // 暗色模式
+    @media (prefers-color-scheme: dark) {
+      border-color: white;
+      color: white;
+    }
+  }
+}
+

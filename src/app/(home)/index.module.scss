@@ -1,0 +1,42 @@
+.choosedTab{
+  border-bottom: 3px solid #54458a !important;
+}
+.desc{
+  display: -webkit-box;//谷歌
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;//显示几行
+  overflow: hidden;
+  word-wrap:break-word;
+  word-break:break-all;
+}
+
+.colorText{
+  background: radial-gradient(circle, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorTitle{
+  background: linear-gradient(45deg, #54458B, #54458B);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorSubTitle{
+  background: linear-gradient(to bottom, #7e57c2, #ab47bc, #c2185b, #f8bbd0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorSubTitle2{
+  background: -webkit-linear-gradient(-70deg, #2188ff 0%, #804eda 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorSubTitle3{
+  background: radial-gradient(circle, #2188ff 0%, #804eda 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

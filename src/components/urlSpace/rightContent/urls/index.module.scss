@@ -1,0 +1,26 @@
+//.urlItems{
+//  transition: all .3s cubic-bezier(0,0,.5,1);
+//  &:hover{
+//    transform: scale3d(1.02, 1.02, 1.02);
+//  }
+//}
+//.url{
+//  display: -webkit-box; /* 需要-webkit-前缀 */
+//  -webkit-box-orient: vertical; /* 设置为垂直布局 */
+//  -webkit-line-clamp: 2; /* 显示两行 */
+//  overflow: hidden; /* 隐藏超出的内容 */
+//  text-overflow: ellipsis; /* 显示省略号 */
+//  //line-height: 22px; /* 根据需要调整行高 */
+//  box-sizing: border-box; /* 包括边框计算总高度 */
+//  min-height: 56px;
+//  //font-weight: 500;
+//  &:hover{
+//    //transition: all .3s cubic-bezier(0,0,.5,1);
+//  }
+//}
+
+.container{
+  :global(.ant-tag){
+    border-radius: 14px !important;
+  }
+}

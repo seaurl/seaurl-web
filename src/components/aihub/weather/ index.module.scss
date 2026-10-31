@@ -1,0 +1,41 @@
+.container{
+  :global(.ant-picker-cell-disabled){
+    background: transparent !important;
+    cursor: default !important;
+    &:before{
+      background: transparent !important;
+      cursor: default !important;
+    }
+  }
+
+  :global(.ant-picker-panel){
+    border: none !important;
+    background: transparent !important;
+  }
+
+  :global(.ant-picker-calendar){
+    background: transparent !important;
+  }
+  .processBar {
+    width: 60px;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    .progress {
+      height: 100%;
+      background: linear-gradient(to right,
+              transparent 0%,
+              transparent calc((var(--min) - var(--global-min)) / var(--global-range) * 100%),
+              #358EFF calc((var(--min) - var(--global-min)) / var(--global-range) * 100%),
+              #FFA500 calc((var(--max) - var(--global-min)) / var(--global-range) * 100%),
+              transparent calc((var(--max) - var(--global-min)) / var(--global-range) * 100%),
+              transparent 100%);
+      background-size: 100% 100%;
+    }
+  }
+
+
+
+}

@@ -1,0 +1,17 @@
+.container{
+  .info{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    display: -webkit-box;//谷歌
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;//显示几行
+    overflow: hidden;
+    line-height: 24px;
+  }
+  :global(.ant-tabs-nav){
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+}
+
+p{
+    line-height: 28px;
+}
+
+.assistive {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+
+.pre-code-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+    background: #4a5568;
+    color: #fff;
+}
+.code-block-header__copy{
+    cursor: pointer;
+}
+.pre-code-header{
+    font-size: 14px;
+}
+.pre-code-box{
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    margin: 6px 0;
+}
+.pre-code{
+    display: contents;
+}
+/*!*设置隐藏画板中的素材按钮*!*/
+/*.App-menu_top label{*/
+/*    display:none;*/
+/*}*/
+
+pre{
+    white-space: break-spaces;
+}
+
+hr{
+    margin: 12px 0;
+}
+
+svg{
+    outline: none;
+}
+
+/*.weather-info hr {*/
+/*    margin-right: 0;*/
+/*    margin-left: 0;*/
+/*    border-top-color: grey;*/
+/*}*/
+
+/*.weather-info {*/
+/*    padding: 12px;*/
+/*    margin-bottom: 1rem;*/
+/*    border-radius: 12px;*/
+/*    position: fixed;*/
+/*    top: 1rem;*/
+/*    color:#000;*/
+/*    background-color: #fff;*/
+/*    width: auto;*/
+/*    min-width: 16rem;*/
+/*    border-width: 0;*/
+/*    right: 1rem;*/
+/*    box-shadow: 0 2px 6px 0 rgba(114, 124, 245, .5);*/
+/*}*/
+
+/*.weather-dark{*/
+/*    color:#fff !important;*/
+/*    background-color: #000 !important;*/
+/*}*/
+
+/*.weather-label{*/
+/*    font-size: 12px;*/
+/*    color: grey;*/
+/*}*/
+/*.weather-title{*/
+/*    !*font-size: 22px;*!*/
+/*    text-align: center;*/
+/*    padding-bottom: 6px;*/
+/*}*/
+
+.chatAiList table {
+    border-collapse: collapse;
+    margin: 12px 0;
+}
+
+.chatAiList th {
+    /*color: #f5f5f5;*/
+    padding: calc(1.143*6px)calc(1.143*12px);
+    border-bottom: 1px solid #737373;
+    border-top: 1px solid #737373;
+    font-weight: 600
+}
+
+.chatAiList th{
+    text-align: left
+}
+
+
+.chatAiList th:first-child {
+    padding-left: 0
+}
+
+.chatAiList td {
+    padding: calc(1.143*6px)calc(1.143*12px);
+    border-bottom: 1px solid rgb(115,115,115);
+}
+
+.chatAiList td:first-child {
+    padding-left: 0
+}
+
+.chatAiList li>ul, .chatAiList li>ol {
+    margin-top: 4px
+}
+
+.chatAiList ul, .chatAiList ol {
+    margin: calc(1.143*12px)0;
+    padding-left: calc(1.143*24px)
+}
+
+.chatAiList li{
+    list-style: circle;
+}
+
+.chatAiList li:not(:first-child) {
+    margin-top: 4px
+}
+.table-container{
+    width: 100%;
+    overflow-x: auto;
+    white-space:  nowrap;
+}
+/*li::marker {*/
+/*    line-height: var(--ds-md-line-height);*/
+/*    color: rgb(var(--ds-rgb-label-2))*/
+/*}*/

@@ -1,0 +1,69 @@
+.primary{
+  :global(.ant-radio-inner){
+    border-color: #54458A !important;
+    background-color: #54458A !important;
+  }
+  //:global(.ant-radio-checked){
+  //  .ant-radio-inner{
+  //    border-color: #54458A !important;
+  //    background-color: #54458A !important;
+  //  }
+  //}
+}
+
+.blue{
+  :global(.ant-radio-inner){
+    border-color: #007AFF !important;
+    background-color: #007AFF !important;
+  }
+}
+
+.purple{
+  :global(.ant-radio-inner){
+    border-color: #A550A7 !important;
+    background-color: #A550A7 !important;
+  }
+}
+.pink{
+  :global(.ant-radio-inner){
+    border-color: #F74F9E !important;
+    background-color: #F74F9E !important;
+  }
+}
+.red{
+  :global(.ant-radio-inner){
+    border-color: #FF5257 !important;
+    background-color: #FF5257 !important;
+  }
+}
+.orange{
+  :global(.ant-radio-inner){
+    border-color: #F7821B !important;
+    background-color: #F7821B !important;
+  }
+}
+.yellow{
+  :global(.ant-radio-inner){
+    border-color: #FFC600 !important;
+    background-color: #FFC600 !important;
+  }
+}
+.green{
+  :global(.ant-radio-inner){
+    border-color: #62BA46 !important;
+    background-color: #62BA46 !important;
+  }
+}
+.gray{
+  :global(.ant-radio-inner){
+    border-color: #8C8C8C !important;
+    background-color: #8C8C8C !important;
+  }
+}
+
+.black{
+  :global(.ant-radio-inner){
+    border-color: #000 !important;
+    background-color: #000 !important;
+  }
+}

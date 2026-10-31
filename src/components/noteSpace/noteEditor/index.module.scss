@@ -1,0 +1,79 @@
+
+.vditor{
+  width: 100%;
+  //height: calc(100vh - 116px) !important;
+  //overflow-y: auto;
+  //border:none;
+  outline: none;
+  //.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content
+  :global(.ck-sticky-panel__content){
+    border: none!important;
+  }
+  :global(.ck-editor__editable_inline){
+    padding: 0 24px !important;
+  }
+  :global(.ck-toolbar){
+    border:none !important;
+    outline: none !important;
+  }
+  :global(.ck-content){
+    border:none;
+    padding: 0 24px;
+    border-top: 1px solid #ddd !important;
+    li>ul, li>ol {
+      margin-top: 4px
+    }
+
+    ul, ol {
+      margin: calc(1.143*12px)0;
+      padding-left: calc(1.143*24px)
+    }
+
+    // li{
+    //  list-style: circle;
+    //}
+
+    li:not(:first-child) {
+      margin-top: 4px
+    }
+  }
+  :global(.ck-focused){
+    border:none !important;
+    border-top: 1px solid #ddd !important;
+    box-shadow: none !important;
+    outline: none;
+  }
+  :global(.ck-blurred){
+    border:none !important;
+    border-top: 1px solid #ddd !important;
+    box-shadow: none !important;
+    outline: none;
+  }
+  :global(.ck-editor__editable_inline) {
+    height: calc(100vh - 100px);
+  }
+  :global(.vditor-reset){
+    padding: 10px 36px !important;
+  }
+}
+
+.darkEditor{
+  :global(.ck-content){
+    color:#fff !important;
+    background: #141414 !important;
+    pre{
+      background: #141414;
+      color: #fff;
+      border-color: #474747;
+    }
+  }
+  :global(.ck-content){
+    border-top: 1px solid #474747 !important;
+  }
+  :global(.ck-focused){
+    border-top: 1px solid #474747 !important;
+  }
+  :global(.ck-blurred){
+    border-top: 1px solid #474747 !important;
+  }
+}

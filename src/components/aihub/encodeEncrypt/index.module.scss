@@ -1,0 +1,10 @@
+.container{
+  :global(.ant-collapse-content-box){
+    padding: 0 !important;
+  }
+  //:global(.ant-tabs-nav){
+  //  &:before{
+  //    border-color: #000 !important
+  //  }
+  //}
+}

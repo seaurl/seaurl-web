@@ -1,0 +1,63 @@
+//.container{
+//  .list{
+//    .loading{
+//      display: flex;
+//      align-items: center;
+//      justify-content: center;
+//      height: 100px;
+//      width: 100%;
+//    }
+//    .item{
+//
+//      padding: 8px 0;
+//      display: flex;
+//      align-items: center;
+//      .icon{
+//        background-color: #f1f3f4;
+//        border: 1px solid #ecedef;
+//        border-radius: 50%;
+//        display: inline-flex;
+//        justify-content: center;
+//        align-items: center;
+//        height: 26px;
+//        width: 26px;
+//        //margin-right: 6px;
+//        flex-shrink: 0;
+//        .img{
+//          width: 16px;
+//          height: 16px;
+//        }
+//      }
+//      .title{
+//        color: #000;
+//        font-size: 15px;
+//        padding-left: 6px;
+//        overflow: hidden;//溢出隐藏
+//        white-space: nowrap;//禁止换行
+//        text-overflow: ellipsis;//...
+//        &:hover{
+//          color: #6954B4;
+//        }
+//      }
+//    }
+//  }
+//}
+//.empty{
+//  height: 100px;
+//  width: 100%;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  flex-flow: column;
+//  font-size: 20px;
+//  .tip{
+//    display: inline-block;
+//    color: #333;
+//    font-size: 31px;
+//    font-weight: 800;
+//  }
+//  .desc{
+//    font-size: 14px;
+//    color: #666;
+//  }
+//}

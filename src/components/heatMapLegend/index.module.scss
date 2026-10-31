@@ -1,0 +1,38 @@
+.tips {
+  color: #57606a;
+  display: flex;
+  align-items: center;
+  .tipTxt {
+    margin-left: 4px;
+    font-size: 12px;
+  }
+
+  .inlineBlock {
+    margin-left: 4px;
+    .rect1 {
+      fill: #ebedf0;
+      shape-rendering: geometricPrecision;
+      outline-offset: -1px;
+    }
+    .rect2 {
+      fill: #9be9a8;
+      shape-rendering: geometricPrecision;
+      outline-offset: -1px;
+    }
+    .rect3 {
+      fill: #40c463;
+      shape-rendering: geometricPrecision;
+      outline-offset: -1px;
+    }
+    .rect4 {
+      fill: #30a14e;
+      shape-rendering: geometricPrecision;
+      outline-offset: -1px;
+    }
+    .rect5 {
+      fill: #216e39;
+      shape-rendering: geometricPrecision;
+      outline-offset: -1px;
+    }
+  }
+}

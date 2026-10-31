@@ -1,0 +1,14 @@
+.container{
+  :global(.ant-picker-cell){
+    padding: 0 !important;
+  }
+  //:global(.ant-picker-calendar){
+  //  background: #1f1f1f !important;
+  //}
+  //:global(.ant-picker-panel){
+  //  background: #1f1f1f !important;
+  //}
+  :global(.ant-tabs .ant-tabs-tab-icon){
+    margin-inline-end: 6px !important;
+  }
+}

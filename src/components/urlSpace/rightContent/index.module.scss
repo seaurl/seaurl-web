@@ -1,0 +1,6 @@
+.container {
+  :global(.ant-pagination-disabled) {
+    display: none !important;
+  }
+
+}
