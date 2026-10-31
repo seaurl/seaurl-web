@@ -38,6 +38,56 @@ Seaurl Web 是 Seaurl 的开源 Web 前端，基于 Next.js 14 和 React 构建�
 
 ![邮件空间界面](./docs/images/mail-space.png)
 
+### 新闻客户端
+
+![新闻客户端界面](./docs/images/news-client.png)
+
+### 文件传输助手
+
+![文件传输助手界面](./docs/images/file-transfer-assistant.png)
+
+### 任务管理与工时记录
+
+![任务管理与工时记录界面](./docs/images/task-management.png)
+
+### 代码编辑器
+
+![代码编辑器界面](./docs/images/code-editor.png)
+
+### Excalidraw 白板
+
+![Excalidraw 白板界面](./docs/images/excalidraw-whiteboard.png)
+
+### 和风天气
+
+![和风天气界面](./docs/images/weather.png)
+
+### BPMN 流程建模
+
+![BPMN 流程建模界面](./docs/images/bpmn-modeler.png)
+
+### HTTP 请求调试
+
+![HTTP 请求调试界面](./docs/images/http-assistant.png)
+
+截图中的授权凭据已遮挡。
+
+### 编码与加密
+
+![编码与加密界面](./docs/images/encoding-encryption.png)
+
+### 中国日历
+
+![中国日历界面](./docs/images/chinese-calendar.png)
+
+### 二维码生成与解析
+
+![二维码生成与解析界面](./docs/images/qr-code.png)
+
+### 代码比对
+
+![代码比对界面](./docs/images/code-diff.png)
+
 ## 技术栈
 
 | 用途 | 技术 |
