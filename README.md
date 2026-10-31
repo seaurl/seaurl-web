@@ -20,6 +20,24 @@ Seaurl Web 是 Seaurl 的开源 Web 前端，基于 Next.js 14 和 React 构建�
 
 本仓库提供页面、交互和部分 Next.js 服务端 API。账号、数据持久化、文件存储、通知及多数 AI 能力需要配套 Seaurl 后端；运行前端开发服务并不等于已经部署完整系统。工具目录由后端数据驱动，具体可用功能还取决于后端配置和第三方服务。
 
+## 界面预览
+
+### 网址空间
+
+![网址空间界面](./docs/images/url-space.png)
+
+### 笔记空间
+
+![笔记空间界面](./docs/images/note-space.png)
+
+### 文件空间
+
+![文件空间界面](./docs/images/file-space.png)
+
+### 邮件空间
+
+![邮件空间界面](./docs/images/mail-space.png)
+
 ## 技术栈
 
 | 用途 | 技术 |
